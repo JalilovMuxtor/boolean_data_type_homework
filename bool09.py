@@ -6,4 +6,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a == int(a) and a>0
+print(main(5.5))
